@@ -13,8 +13,9 @@ type.
 
 
 <a name="serverpacket18" href="#serverpacket18"><h4>Packet 18 | Position update?</h4></a>
+
 Tells the client his location
-PACKET 16: [16::Uint8, PosX::Int32, PosY::Int32, TOKEN::Int32]
+
 |offset|Bytes|Data Type|Description|Default|
 |------|-----|---------|-----------|-------|
 |0|1|Uint8|Packet ID|16|
