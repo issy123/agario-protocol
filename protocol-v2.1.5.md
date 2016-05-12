@@ -49,7 +49,7 @@ Top 10 dominating cells.
 |offset|Bytes|Data Type|Description|Default|
 |------|-----|---------|-----------|-------|
 |0|1|Uint8|Packet ID|49|
-|?|?|?|?|?|
+|?|1|Float32|Packet ID|50|
 
 
 <a name="serverpacket64" href="#serverpacket64"><h4>Packet 64 | Viewport</h4></a>
@@ -68,7 +68,7 @@ Tells the client his viewport
 |offset|Bytes|Data Type|Description|Default|
 |------|-----|---------|-----------|-------|
 |0|1|Uint8|Packet ID|255|
-|?|?|?|?|?|
+|11|?|Uint32|CellID|?|
 
 
 ## Client -> Server
